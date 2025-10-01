@@ -57,7 +57,37 @@ a {
     color: inherit;
 }
 
+.section {
+    padding: 120px 0;
+}
+
+.container {
+    width: 1440px;
+}
+
+.header {
+    max-width: 1440px;
+    padding: 20px 0;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--cornflower);
+
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
 .header-logo {
+    display: flex;
+    align-items: center;
     border: 1px solid #000;
     font-family: var(--font-second);
     font-weight: 700;
@@ -67,6 +97,7 @@ a {
     letter-spacing: 0.03em; 
     color: var(--iris);
     text-transform: uppercase;
+    margin-left: 156px;
 }
 
 
@@ -74,6 +105,10 @@ a {
     color: var(--navy-blue);
 }
 
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
 
 .nav-link {
     font-family: var(--font-family);
@@ -91,11 +126,18 @@ a {
 }
 
 .header-link {
+    display: flex;  
     color: var(--slate);    
 }
 
 .contacts {
 font-style: normal;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+    margin-right: 156px;
 }
 
 .contacts-link:hover, 
@@ -105,6 +147,18 @@ font-style: normal;
     cursor: pointer;
 }
 
+ .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 
 h1 {
@@ -113,6 +167,7 @@ h1 {
     line-height: 1.07;
     color: var(--white);
     letter-spacing: 0.02em;
+    
 }
 
 .hero {
@@ -121,10 +176,11 @@ h1 {
 }
 
 .hero-title {
-    margin-bottom: 40px;
+    width: 496px;
 }
 
 .hero-button {
+    gap: 48px;
     font-family: var(--font-main);
     font-weight: 500;
     font-size: 16px;
