@@ -232,6 +232,7 @@ h1 {
     display: flex;
     gap: 24px;
     padding: 0 156px 0 132px;
+}
 
 .values-item {
     width: calc((100% - 3 * 24px) / 4);
@@ -344,8 +345,8 @@ h1 {
 
 footer {
     background: var(--navy-blue);
-    padding: 100px 0
-
+    padding: 100px 0;
+    margin-bottom: 16px;
 }
 
 .footer-logo {
