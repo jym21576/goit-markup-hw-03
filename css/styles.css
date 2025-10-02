@@ -346,7 +346,8 @@ h1 {
 footer {
     background: var(--navy-blue);
     padding: 100px 0;
-    margin-bottom: 16px;
+    text-align: left;
+    display: inline-block;
 }
 
 .footer-logo {
@@ -358,6 +359,7 @@ footer {
     letter-spacing: 0.03em; 
     color: var(--iris);
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 .footer-studio {
