@@ -47,7 +47,7 @@ h3 {
     letter-spacing: 0.02em;
 }
 
-ul {
+ul, ol {
     list-style: none;
     margin: 0;
 }   
@@ -55,6 +55,17 @@ ul {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .section {
@@ -147,18 +158,6 @@ font-style: normal;
     cursor: pointer;
 }
 
- .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 
 h1 {
@@ -167,55 +166,94 @@ h1 {
     line-height: 1.07;
     color: var(--white);
     letter-spacing: 0.02em;
-    
 }
 
-.hero {
-    background-color: var(--navy-blue);
+
+
+.hero .container{
+    background-color: var(--navy-blue);     
     background-size: cover;
+    height: 600px;
+    align-items: center;
 }
 
 .hero-title {
     width: 496px;
+    padding-left: 472px;
+    padding-top: 188px;
+    margin-bottom: 48px;
 }
 
 .hero-button {
-    gap: 48px;
     font-family: var(--font-main);
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em; 
-    color: var(--white);cursor: pointer;
+    color: var(--white);
     line-height: 1.5;
     background: var(--iris);
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:hover,
 .hero-button:focus {
     background-color: var(--ocean);
-    outline: none;
 }
+
+ .visually-hidden {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
+ }
 
 .values {
     margin-bottom: 60px;
 }
+
+.values-list {
+    display: flex;
+    column-gap: 24px;
+    padding: 0 156px 0 132px;
+
 .values-title {
     color: var(--navy-blue);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-align: left;
 }
-/*.values-text {
-    
-}*/
+.values-text {
+    text-align: left;
+}
 
 .team {
     letter-spacing: 0.02em; 
     background-color: var(--cloud);
 }
 
+.team-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+
 .team-member {
-    background-color: var(--white);
+    box-sizing: border-box;
+    border: 1px solid var(--cornflower);
+    border-radius: 0 0 4px 4px;
+        padding: 0px 0px 32px;
+    width: calc((100% - 3 * 24px) / 4);background-color: var(--white);
 }
 
 .team-title {
@@ -225,6 +263,8 @@ h1 {
     letter-spacing: 0.02em;
 
 }
+
+
 /*.team-img {
 }*/
 
