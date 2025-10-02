@@ -174,7 +174,7 @@ h1 {
 
 
 
-.hero .container{
+.hero {
     background-color: var(--navy-blue);     
     background-size: cover;
     height: 600px;
