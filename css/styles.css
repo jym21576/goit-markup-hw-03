@@ -82,6 +82,7 @@ img {
     max-width: 1440px;
     padding: 20px 0;
     background-color: var(--white);
+    background-size: cover;
     border-bottom: 1px solid var(--cornflower);
 
 }
@@ -343,11 +344,17 @@ h1 {
     text-align: left;
 }
 
-footer {
+.footer {
     background: var(--navy-blue);
+    background-size: cover;
     padding: 100px 0;
+    padding-left: 156px;
     text-align: left;
+}
+
+.footer .container {
     display: inline-block;
+    width: 264px;
 }
 
 .footer-logo {
