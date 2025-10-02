@@ -178,8 +178,8 @@ h1 {
 }
 
 .hero-title {
-    width: 496px;
     padding-left: 472px;
+    padding-right: 472px;
     padding-top: 188px;
     margin-bottom: 48px;
 }
@@ -240,25 +240,27 @@ h1 {
 .team {
     letter-spacing: 0.02em; 
     background-color: var(--cloud);
+    padding-bottom: 120px;
 }
 
 .team-header {
     color: var(--navy-blue);
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding-bottom: 72px;
 }
 
 .team-list {
     display: flex;
+    gap: 24px;
 }
 
-.team-member {
-    box-sizing: border-box;
+.team-member {   
+    width: calc((100% - 3 * 24px) / 4);
+    background-color: var(--white);
     border: 1px solid var(--cornflower);
     border-radius: 0 0 4px 4px;
-        padding: 0px 0px 32px;
-    width: calc((100% - 3 * 24px) / 4);background-color: var(--white);
+    padding: 0px 0px 32px;
 }
-
 /*.team-img {
 }*/
 
