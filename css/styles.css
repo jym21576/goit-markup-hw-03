@@ -153,7 +153,6 @@ font-style: normal;
 .contacts-list {
     display: flex;
     gap: 40px;
-    margin-right: 156px;
 }
 
 .contacts-link:hover, 
@@ -232,7 +231,7 @@ h1 {
 .values-list {
     display: flex;
     gap: 24px;
-    padding: 0 156px 0 132px;
+    padding-left: 156px;
 }
 
 .values-item {
