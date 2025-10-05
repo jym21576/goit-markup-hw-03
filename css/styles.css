@@ -346,15 +346,15 @@ h1 {
 }
 
 .footer {
-        background: var(--navy-blue);
+    background: var(--navy-blue);
     background-size: cover;
-    padding-left: 156px;
     text-align: left;
     padding: 100px 0;
 }
 
 .footer .container {
     display: inline-block;
+    padding-left: 156px;
     width: 264px;
 }
 
