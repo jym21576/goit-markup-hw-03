@@ -313,6 +313,7 @@ h1 {
 
 .portfolio-list {
     display: flex;
+    flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
     padding: 0 156px 0 132px;
@@ -343,16 +344,16 @@ h1 {
 }
 
 .footer {
+    display: inline-block;
     background: var(--navy-blue);
     background-size: cover;
-    padding: 100px 0;
     padding-left: 156px;
     text-align: left;
 }
 
 .footer .container {
-    display: inline-block;
     width: 264px;
+    padding: 100px 0;
 }
 
 .footer-logo {
