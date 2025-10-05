@@ -323,11 +323,13 @@ h1 {
 .portfolio-item {
     width: calc((100% - 48px) / 3);
     text-align: left;
+}
+
+.portfolio-info {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
-
 }
 
 .portfolio-header {
@@ -344,16 +346,16 @@ h1 {
 }
 
 .footer {
-    display: inline-block;
     background: var(--navy-blue);
     background-size: cover;
     padding-left: 156px;
     text-align: left;
+    padding: 100px 0;
 }
 
 .footer .container {
     width: 264px;
-    padding: 100px 0;
+    display: inline-block;
 }
 
 .footer-logo {
