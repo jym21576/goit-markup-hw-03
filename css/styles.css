@@ -235,8 +235,7 @@ h1 {
 }
 
 .values-item {
-    display: flex-basis; 
-    width: calc((100% - 3 * 24px)/4);
+    width: calc((100% - 72px) / 4);
     background-color: var(--white);
     border-radius: 4px;
     padding: 40px 32px;
@@ -274,7 +273,7 @@ h1 {
 }
 
 .team-member {   
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
     background-color: var(--white);
     border: 1px solid var(--cornflower);
     border-radius: 0 0 4px 4px;
@@ -282,7 +281,7 @@ h1 {
         background: var(--white);
 }
 
-.team-list .container {
+.team-info {
     padding: 32px 0;
     margin: 0;
 }
@@ -315,7 +314,6 @@ h1 {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-     width: calc((100% - 48px) / 3);
     column-gap: 24px;
     row-gap: 48px;
     padding: 0 156px 0 132px;
@@ -323,7 +321,8 @@ h1 {
 }
 
 .portfolio-item {
-    text-align: left;
+        width: calc((100% - 48px) / 3);
+        text-align: left;
 }
 
 .portfolio-info {
