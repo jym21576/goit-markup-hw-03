@@ -350,11 +350,12 @@ h1 {
     background: var(--navy-blue);
     background-size: cover;
     text-align: left;
-    padding: 100px 0 100px 156px;
+    padding: 100px 0;
 }
 
 .footer .container {
     width: 264px;
+    padding-left: 156pxx;
 }
 
 .footer-logo {
