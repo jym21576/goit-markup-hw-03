@@ -345,11 +345,11 @@ h1 {
 
 .footer {
     display: inline-block;
-    background: var(--navy-blue);
-    background-size: cover;
     text-align: left;
     padding: 100px 0;
     padding-left: 156px;
+    background: var(--navy-blue);
+    background-size: cover;
 }
 
 .footer .container {
