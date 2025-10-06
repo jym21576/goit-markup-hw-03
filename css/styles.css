@@ -344,16 +344,17 @@ h1 {
 }
 
 .footer {
-    display: inline-block;
-    text-align: left;
-    padding: 100px 0;
-    padding-left: 156px;
     background: var(--navy-blue);
     background-size: cover;
+    align-items: left;
+    text-align: left;
+    padding: 100px 0;
 }
 
 .footer .container {
-    width: 264px;
+        display: inline-block;
+        width: 264px;
+        padding-left: 156px;
 }
 
 .footer-logo {
