@@ -190,6 +190,7 @@ h1 {
 
 .hero-button {
     display: block;
+    align-items: center;
     font-family: var(--font-main);
     font-weight: 500;
     font-size: 16px;
