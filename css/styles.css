@@ -352,12 +352,12 @@ h1 {
 }
 
 .footer .container {
-        display: inline-block;
         width: 264px;
-        padding-left: 156px;
+        margin-left: 156px;
 }
 
 .footer-logo {
+    display: inline-block;
     font-family: var(--font-second);
     font-weight: 700;
     font-size: 18px;
