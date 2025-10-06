@@ -50,7 +50,13 @@ h3 {
 ul, ol {
     list-style: none;
     margin: 0;
+    padding: 0;
 }   
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
 
 a {
     text-decoration: none;
@@ -67,6 +73,8 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+
 
 .section {
     padding: 120px 0;
@@ -111,8 +119,8 @@ img {
     letter-spacing: 0.03em; 
     color: var(--iris);
     text-transform: uppercase;
-    margin-left: 156px;
-    margin-right: 76px;
+    /* margin-left: 156px;
+    margin-right: 76px; */
 }
 
 
@@ -132,7 +140,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    padding: 24px 0
+    padding: 0;
+    /* padding: 24px 0; */
 }
 
 .nav-link:hover, 
@@ -163,17 +172,9 @@ font-style: normal;
 }
 
 
-
-h1 {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    color: var(--white);
-    letter-spacing: 0.02em;
-}
-
 .hero {
     background-color: var(--navy-blue);
+    padding: 0;
     /* example dark background */
     padding: 188px 0;
 }
@@ -182,7 +183,6 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
 }
 
 .hero-title {
@@ -192,6 +192,7 @@ h1 {
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
+    text-align: center;
     /* ensures the text wraps nicely */
     margin-bottom: 48px;
 }
@@ -265,9 +266,9 @@ h1 {
      overflow: hidden;
  }
 
-.values {
+/* .values {
     margin-bottom: 60px;
-}
+} */
 
 .values-list {
     display: flex;
@@ -278,7 +279,7 @@ h1 {
     width: calc((100% - 72px) / 4);
     background-color: var(--white);
     border-radius: 4px;
-    padding: 40px 32px;
+    /* padding: 40px 32px; */
     text-align: left;
 }   
 
@@ -288,7 +289,7 @@ h1 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
 }
 
 /* .values-text {
@@ -298,7 +299,7 @@ h1 {
 .team {
     letter-spacing: 0.02em; 
     background-color: var(--cloud);
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
 }
 
 .team-title {
@@ -310,7 +311,7 @@ h1 {
 .team-list {
     display: flex;
     gap: 24px;
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
 }
 
 .team-member {   
@@ -318,8 +319,7 @@ h1 {
     background-color: var(--white);
     border: 1px solid var(--cornflower);
     border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-        background: var(--white);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);background: var(--white);
 }
 
 .team-info {
@@ -328,7 +328,7 @@ h1 {
 }
 
 .team-header {
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
     text-align: center;
 }
 /*.team-img {
@@ -357,8 +357,8 @@ h1 {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    padding: 0 156px 0 132px;
-    margin-bottom: 72px;
+    /* padding: 0 156px 0 132px;
+    margin-bottom: 72px; */
 }
 
 .portfolio-item {
@@ -379,7 +379,7 @@ h1 {
     text-align: left;
     letter-spacing: 0.02em; 
     text-transform: capitalize;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
 }
 .portfolio-text {
     color: var(--slate);
@@ -395,7 +395,7 @@ h1 {
 }
 
 .footer .container {
-        width: 264px;
+        /* width: 264px; */
         margin-left: 156px;
 }
 
@@ -409,7 +409,7 @@ h1 {
     letter-spacing: 0.03em; 
     color: var(--iris);
     text-transform: uppercase;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
 .footer-studio {
