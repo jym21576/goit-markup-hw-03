@@ -172,9 +172,50 @@ h1 {
     letter-spacing: 0.02em;
 }
 
-
-
 .hero {
+    background-color: var(--navy-blue);
+    /* example dark background */
+    padding: 188px 0;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-title {
+    color: var(--white);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    /* ensures the text wraps nicely */
+    margin-bottom: 48px;
+}
+
+.hero-button {
+    color: var(--white);
+    background-color: var(--iris);
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition: background-color 250ms ease;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--ocean);
+}
+
+/* .hero {
     background-color: var(--navy-blue);     
     background-size: cover;
     height: 600px;
@@ -209,7 +250,7 @@ h1 {
 .hero-button:hover,
 .hero-button:focus {
     background-color: var(--ocean);
-}
+} */
 
  .visually-hidden {
      position: absolute;
