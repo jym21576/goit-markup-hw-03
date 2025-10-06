@@ -179,12 +179,12 @@ h1 {
     background-size: cover;
     height: 600px;
     align-items: center;
+    padding: 188px 0;
 }
 
 .hero-title {
     max-width: 496px;
     padding-left: 472px;
-    padding-top: 188px;
     margin-bottom: 48px;
 }
 
